@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+
+.heading {
+  position: relative; /* Example: You can use 'relative', 'absolute', 'fixed', etc. */
+  top: 5px; /* Adjust this value to move the element vertically */
+  left: 500px; /* Adjust this value to move the element horizontally */
+}
+
+.textarea{
+  position:relative;
+  top:10 px;
+  left:500px;
+}
+.outputbox{
+  position:relative;
+  top:10 px;
+  left:500px;
+}
+.submit-button{
+  position:relative;
+  top:10 px;
+  left:500px;
+}
+.output{
+  position:relative;
+  top:10 px;
+  left:500px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
